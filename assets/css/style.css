@@ -445,3 +445,332 @@ p {
   width: 19px;
   height: 23px;
 }
+/* ///////////////////////////////////////////////////////////////////////////////// */
+.section3 {
+  width: 1440px;
+  height: 1152px;
+  background: #ffffff;
+}
+#sec3Con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1050px;
+  height: 1072px;
+  margin-left: 195px;
+}
+#sc3row1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 1044px;
+  height: 134px;
+  margin-top: 112px;
+}
+#sec3h6 {
+  width: 59px;
+  height: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #ff6551;
+  margin-top: 0;
+}
+#sec3h2 {
+  width: 450px;
+  height: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+  margin-top: -25px;
+}
+#sec3P {
+  width: 469px;
+  height: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  margin-left: 0;
+  margin-top: -20px;
+}
+#sc3row2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+  width: 1049px;
+  height: 602px;
+  margin-top: 112px;
+}
+.productCard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 238px;
+  height: 602px;
+  background: #ffffff;
+}
+.picProd {
+  width: 238px;
+  height: 300px;
+  margin-top: 0;
+}
+#picPro1 {
+  background-image: url("/assets/pics/P1.png");
+}
+#picPro2 {
+  background-image: url("/assets/pics/P2.png");
+}
+#picPro3 {
+  background-image: url("/assets/pics/P3.png");
+}
+#picPro4 {
+  background-image: url("/assets/pics/P4.png");
+}
+#sale {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 10px;
+  position: relative;
+  width: 30px;
+  height: 24px;
+  left: 20px;
+  top: 20px;
+  background: #e74040;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+}
+#salespan {
+  width: 32px;
+  height: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+.prodActions {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+  position: relative;
+  width: 140px;
+  height: 40px;
+  left: 49px;
+  top: 210px;
+}
+.actionsbuts {
+  width: 40px;
+  height: 40px;
+  background: #ffffff;
+  border-radius: 44.7857px;
+  border: none;
+  text-align: center;
+}
+.vect {
+  width: 20px;
+  height: 20px;
+  margin-top: 8px;
+}
+.frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  width: 232px;
+  height: 302px;
+}
+.frameDetail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /*  align-items: center; */
+  padding: 0px;
+  gap: 10px;
+  width: 190px;
+  height: 26px;
+  margin-top: 25px;
+  margin-left: 18px;
+}
+.Prodname {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  gap: 10px;
+  width: 130px;
+  height: 24px;
+}
+.LinkName {
+  width: 130px;
+  height: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #ff6551;
+}
+.rate {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  width: 50px;
+  height: 26px;
+  background: #26335d;
+  border-radius: 20px;
+}
+.star {
+  width: 16px;
+  height: 16px;
+  margin-left: 6px;
+}
+.RateNum {
+  width: 19px;
+  height: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+.prodTitle {
+  width: 172px;
+  height: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #252b42;
+  margin-left: 25px;
+  margin-top: 0;
+}
+.ProdParag {
+  width: 182px;
+  height: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  margin-left: 25px;
+  margin-top: -23px;
+}
+.NumOfSale {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+  width: 98px;
+  height: 24px;
+  margin-left: 25px;
+  margin-top: -10px;
+}
+.NumOfSalespic {
+  width: 14px;
+  height: 16px;
+  margin-left: 2px;
+}
+.h6NumSales {
+  width: 60px;
+  height: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+.Prices {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 5px;
+  width: 108px;
+  height: 34px;
+  margin-left: 25px;
+}
+.Price1 {
+  width: 52px;
+  height: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #bdbdbd;
+  margin-top: 4px;
+}
+.Price2 {
+  width: 45px;
+  height: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #2435a1;
+  margin-top: 4px;
+}
+.LearnMoreBut {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 10px;
+  width: 141.14px;
+  height: 44px;
+  border: 1px solid #ff6551;
+  border-radius: 37px;
+  margin-left: 25px;
+  background-color: #ffffff;
+}
+.learnmoreh6 {
+  width: 82px;
+  height: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #ff6551;
+}
+.learnMArrow {
+  width: 9.14px;
+  height: 16px;
+}
